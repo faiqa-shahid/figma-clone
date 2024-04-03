@@ -1,0 +1,65 @@
+@import url("bootstrap.scss");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #979595;
+  width: 100%;
+}
+
+.A {
+  background-color: #102039;
+  width: 100%;
+  height: 75px;
+  top: 35px;
+}
+
+.A .B {
+  width: 202.57px;
+  height: 35px;
+  top: 56px;
+  left: 33px;
+}
+
+.container .row .col {
+  width: 100%;
+}
+
+section .mt-4 .row .col {
+  background-color: #102039;
+}
+
+footer .container-fluid {
+  background-color: #102039;
+}
+
+.collapse navbar-collapse .navitem .navlink {
+  color: white;
+}
+
+.one {
+  background-color: #979595;
+}
+
+.one .text {
+  text-align: center;
+}
+
+.image-text-container .image-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image-text-container .image-text img {
+  max-width: 150px;
+  /* Adjust image width as needed */
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.big-image img {
+  max-width: 300px;
+}
